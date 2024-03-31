@@ -21,4 +21,46 @@ export const Banner = styled.div`
   margin: 0 auto;
 
   filter: blur(50px);
+
+  z-index: -1;
+`;
+
+export const ContentBanner = styled.div`
+  grid-area: banner;
+  max-width: 90rem;
+  width: 100%;
+
+  margin: 0 auto;
+
+  z-index: 9999;
+
+  display: flex;
+
+  > img {
+    margin-top: 7.813rem;
+  }
+`;
+
+export const Adverts = styled.div`
+  width: 100%;
+  margin-top: 7.813rem;
+
+  > h1 {
+    max-width: 39rem;
+    font-family: "Baloo 2", sans-serif;
+    font-size: ${(props) => props.theme.typography.font.baloo.sizes.titleXL};
+    line-height: ${(props) => props.theme.typography.font.baloo.lineHeight};
+  }
+
+  > span {
+    font-family: "Roboto", sans-serif;
+    font-size: ${(props) => props.theme.typography.font.roboto.sizes.textL};
+    line-height: ${(props) =>
+      props.theme.typography.font.roboto.lineHeight.small};
+
+    display: inline-block;
+    max-width: 35rem;
+
+    margin-top: 1rem;
+  }
 `;

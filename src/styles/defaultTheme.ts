@@ -25,7 +25,6 @@ export const defaultTheme = {
   typography: {
     font: {
       baloo: {
-        fontFamily: "Baloo 2",
         sizes: {
           titleXL: "3rem",
           titleL: "2rem",
@@ -40,7 +39,6 @@ export const defaultTheme = {
         lineHeight: "130%",
       },
       roboto: {
-        fontFamily: "Roboto",
         sizes: {
           textL: "1.25rem",
           textM: "1rem",
