@@ -57,10 +57,22 @@ export const Adverts = styled.div`
     font-size: ${(props) => props.theme.typography.font.roboto.sizes.textL};
     line-height: ${(props) =>
       props.theme.typography.font.roboto.lineHeight.small};
-
+    color: ${(props) => props.theme.base.subtitle};
     display: inline-block;
     max-width: 35rem;
 
     margin-top: 1rem;
   }
+`;
+
+export const Description = styled.div`
+  max-width: 36rem;
+
+  margin-top: 4.375rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  row-gap: 1.563rem;
 `;
